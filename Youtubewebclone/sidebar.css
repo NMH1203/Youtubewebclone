@@ -1,0 +1,43 @@
+.sidebar{
+
+    background-color: white;
+    border-right-width: 1px ;
+    border-right-style: solid;
+    border-right-color: rgb(245,245,245) ;
+
+    position: fixed;
+    left: 0px;
+    top: 55px;
+    bottom: 0px;
+    width: 72px;
+    z-index: 200px;
+    padding-top: 5px;
+}
+
+.home-icon,
+.explore-icon,
+.subscriptions-icon,
+.originals-icon,
+.youtube-music-icon,
+.libary-icon{
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+
+.siderbar-link{   
+     height: 74px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     cursor: pointer;
+}
+.siderbar-link:hover{
+     background-color: rgb(231, 230, 230);
+}
+
+.siderbar-link p{
+     font-family: roboto,arial;
+     font-size: 10px;
+}
